@@ -74,4 +74,7 @@ console.log(movies.length); //tells us how many items are in the array
 //using a method only, let's print the values on the newly arranged array
 
 let arr = new Array(1, 2, 3, 4, 5);
-if 
+if (arr instanceof Array){
+    let revArr = arr.reverse();
+    revArr.forEach(numbers => console.log(numbers));
+}
